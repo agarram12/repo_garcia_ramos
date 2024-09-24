@@ -2,16 +2,23 @@ import java.util.Scanner;
 
 public class ReglaDeTres {
 	public static void main(String[] args) {
+		// Solucion regla de tres (b*c)/a
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Resolver una regla de tres.");
 		System.out.print("Introduce el digito A: ");
-		float A = scan.nextFloat();
+		double A = scan.nextDouble();
 		System.out.print("Introduce el digito B: ");
-		float B = scan.nextFloat();
+		double B = scan.nextDouble();
 		System.out.print("Introduce el digito C: ");
-		float C = scan.nextFloat();
-		float resultado = (B*C)/A;
-		System.out.println("El resultado de x es: " + resultado);
+		double C = scan.nextDouble();
+		double resultado = (B*C)/A;
+		System.out.println("La solución de la regla de 3 es: ");
+		System.out.print(A);
+		System.out.print(" ---> ");
+		System.out.println(B);
+		System.out.print(C);
+		System.out.print(" ---> ");
+		System.out.print(resultado);
 		scan.close();
 	}
 }
