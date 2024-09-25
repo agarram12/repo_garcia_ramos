@@ -19,6 +19,7 @@ public class ReglaDeTres {
 		System.out.print(C);
 		System.out.print(" ---> ");
 		System.out.print(resultado);
+		//TODO: Controlar que A no se de = 0
 		scan.close();
 	}
 }
