@@ -1,12 +1,11 @@
 package unidad02;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 /**
  * Devuelve el mayor número de los introducidos por teclado
  */
-public class MayorNumero {
+public class MayorNumeroWhile {
 
 	public static void main(String[] args) {
 		// Opcion A. Indicamos el número de datos a evaluar
