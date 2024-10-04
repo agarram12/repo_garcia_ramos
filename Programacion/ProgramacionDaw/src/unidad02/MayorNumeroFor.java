@@ -16,9 +16,20 @@ public class MayorNumeroFor {
 		do {
 			System.out.println("Introduce un entero: ");
 			dato = scan.nextLine();
-			salir = "STOP".equalsIgnoreCase(dato) ? true : false;
+			if ("STOP".equalsIgnoreCase(dato)) {
+				salir = true;
+			} else {
+				int datoEntero = Integer.parseInt(dato);
+				// asignación de valor a salir con operador ternario
+				//mayorNumero = datoEntero > mayorNumero ? datoEntero : mayorNumero ;
+				if (datoEntero > mayorNumero) {
+					mayorNumero = datoEntero;
+				}
+				System.out.println("El mayor número hasta ahora es: " + mayorNumero);
+			}
+			//salir = "STOP".equalsIgnoreCase(dato) ? true : false;
 		} while (!salir);
-		System.out.println("El mayor numero introducido es el " + mayorNumero);
 		scan.close();
+		System.out.println("El mayor numero introducido es el " + mayorNumero);
 	}
 }
