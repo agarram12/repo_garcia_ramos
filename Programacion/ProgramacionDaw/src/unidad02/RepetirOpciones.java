@@ -101,5 +101,6 @@ public class RepetirOpciones {
 			System.err.println("¡Elige una opción del menú!");
 			break;
 		}
+		scan.close();
 	}
 }
