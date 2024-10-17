@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class ReglaDeTres {
 	public static void main(String[] args) {
 		// Solucion regla de tres (b*c)/a
