@@ -1,6 +1,5 @@
 package com.Alvaro.tarea2;
 
-import java.nio.file.spi.FileSystemProvider;
 import java.util.Scanner;
 
 public class ejercicio3 {
@@ -13,7 +12,6 @@ public class ejercicio3 {
 		int contador = 0;
 		double media = 0;
 		int menorNumero = Integer.MAX_VALUE;
-		boolean numCorrecto = false;
 		while (numero > 0) {
 			
 			System.out.println("Introduce un número (pulsa 0 para salir): ");
@@ -21,6 +19,7 @@ public class ejercicio3 {
 			if (numero == 0) {
 				break;
 			}
+			
 			if (numero > mayorNumero) {
 				mayorNumero = numero;
 			} 
@@ -29,12 +28,12 @@ public class ejercicio3 {
 			}
 			suma += numero;
 			contador++;
-			numCorrecto = true;
+			media = (double) suma / contador;
 		}
+		scan.close();
 		System.out.println("El mayor número es: " + mayorNumero);
 		System.out.println("El menor número es: " + menorNumero);
 		System.out.println("La suma de todo los números es: " + suma);
-		media = (double) suma / contador;
 		System.out.println("La media de todos los números son: " + media);
 		
 	}
