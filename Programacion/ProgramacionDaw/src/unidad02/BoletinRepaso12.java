@@ -7,6 +7,7 @@ public class BoletinRepaso12 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Introduce un número de como máximo 5 cifras para saber cuantos dígitos tiene: ");
 		int numero = scan.nextInt();
+		scan.close();
 		int contador = 0;
 		if (numero < 99999 && numero > -99999) {
 			while (numero != 0) {
