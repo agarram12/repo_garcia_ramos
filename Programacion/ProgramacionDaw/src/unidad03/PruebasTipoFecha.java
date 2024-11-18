@@ -16,6 +16,7 @@ public class PruebasTipoFecha {
 		Date fechaActual = new Date();
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		String fechaString = scan.nextLine();
+		
 		// Date fechaUsuario = sdf.parse(fechaString);
 		System.out.println(fechaActual);
 		long milisegFechaAct = fechaActual.getTime();
