@@ -16,8 +16,8 @@ public class UsoDeObjetos {
 		int numero = 57846;
 		System.out.println("La primera cifra del número " + numero + " es: " + UtilidadesMatematicas.PosicionDeDigito(numero));
 		System.out.println("**Juntar dos números");
-		int primerNum = 23;
-		int segundoNum = 50;
+		int primerNum = 685;
+		int segundoNum = 540;
 		System.out.println("El numero eso: " + UtilidadesMatematicas.JuntaNumero(primerNum, segundoNum));
 		System.out.println("**Factorizar un número");
 		int numeroFactorial = 6;
