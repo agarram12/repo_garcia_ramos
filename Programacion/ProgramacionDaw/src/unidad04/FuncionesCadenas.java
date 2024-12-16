@@ -28,4 +28,27 @@ public class FuncionesCadenas {
 		}
 		return vocales;
 	}
+	
+	public static String eliminarEspaciosDupl(String cadenaConEspacioDup) {
+		String cadenaSinEspaciosDupl = StringUtils.trim(cadenaConEspacioDup);
+		String result = "";
+		for (int index = 0; index < cadenaSinEspaciosDupl.length(); index++) {
+			char caracterActual = cadenaSinEspaciosDupl.charAt(index);
+			boolean hayEspacio = false;
+			if (' ' == caracterActual) {
+				result+= caracterActual;
+				hayEspacio = true;
+			} else {
+				result += caracterActual;
+			}
+		}
+		return result;
+	}
+	// crear para contar palabras 
+	public static int contarPalabra(String cadena) {
+		cadena = "¿Hola, qué tal?";
+		String [] palabrasArray = StringUtils.split(cadena, " ");
+		String [] palabrasArray2 = cadena.split("[¿?.,;:]");
+		return palabrasArray.length;
+	}
 }
