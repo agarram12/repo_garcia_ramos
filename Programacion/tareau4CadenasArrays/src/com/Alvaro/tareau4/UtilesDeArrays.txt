@@ -1,0 +1,21 @@
+sort(T[] a)
+- Ordena el array específico de objetos en order ascendente.
+
+binarySearch
+- Busca en el array especificado el campo que le hemos puesto, usando la búsqueda
+- binaria. Siendo así que nuestro array en el cual queremos buscar debe estar
+- ordenado, si no se encuentra ordenado, los resultados no estarán bien definidos.
+
+equals
+- Devolverá verdadero si dos arrays de tipo long son iguales al otro. Serán considerados iguales si ambos contienen el mismo número de elementos.
+
+fill(T[] a, T val)
+- Asigna el long especificado a un elemento dentro del array de longs.
+
+copyOf(T[] original, int newLength)
+- copia el array especificado, truncando todo o rellenando con nulls en caso de que 
+- fuese necesario, para que así tenga la misma longitud.
+
+toString(T[] a)
+
+- Devuelve una representación de la cadena en formato String.

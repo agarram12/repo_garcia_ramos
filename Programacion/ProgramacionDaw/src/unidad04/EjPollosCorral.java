@@ -17,41 +17,8 @@ package unidad04;
 			int col = Integer.parseInt(datosPollito[1]) -1;
 			String direccion = datosPollito[2];
 			int pasos = Integer.parseInt(datosPollito[3]);
-			while (pasos > 0) {
-				corral[fila][col] = corral[fila][col] +1;
-				switch (direccion) {
-				case "N":
-					while (pasos>  0 && !chocado()) {
-						corral[s][j] = corral[i][j] +1;
-						s = s-factor;
-						corral[i][j] = corral[i][j] +1;
-						t = t+factor;
-						pasos--;
-						factor = -(factor + 1);
-					}
-					break;
-				case value:
-					
-					break;
-				case value:
-					
-					break;
-				case value:
-					
-					break;
-
-				default:
-					break;
-				}
-				pasos--;
-			}
-		}
-	    // TU CÓDIGO AQUÍ.
-	    // Procesa un único caso leyendo con
-	    // in.next*()
-
-	  } // casoDePrueba
-
+		  }
+}
 	  public static void main(String[] args) {
 
 	    in = new java.util.Scanner(System.in);
