@@ -65,9 +65,9 @@ public class EjtTresEnRalla {
 							}
 							// estamos en la diagonal secundaria
 							if (fila == tablero[0].length - fila - 1) {
-								if (tablero[i][tablero[0].length - i - 1]) {
+								//if (tablero[i][tablero[0].length - i - 1]) {
 									
-								}
+								//}
 							}
 						}
 					}
